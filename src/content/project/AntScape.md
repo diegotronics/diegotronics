@@ -38,5 +38,5 @@ Si deseas descargar el juego, puedes hacerlo desde itch.io:
 ### Autores
 
 - [Diego Pérez](https://www.diegotronics.com)
-- [Sergio Gontardo](@sgontardo)
-- [Johan Castillo](@johan-castillo)
+- [Sergio Gontardo](https://www.twitter.com/sgontardo)
+- [Johan Castillo](https://www.instagram.com/johancastillo_00)
