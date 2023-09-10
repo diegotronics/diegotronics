@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
@@ -41,7 +42,7 @@ const projects = (await getCollection('project'))
 					</div>
 				</Hero>
 
-				<img
+				<Image
 					alt="Diegotronics sonriendo"
 					width="480"
 					height="620"
