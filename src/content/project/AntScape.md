@@ -1,8 +1,8 @@
 ---
 title: AntScape
 publishDate: 2023-08-26 00:00:00
-img: /assets/antscape.jpg
-img_alt: AntScape
+cover: /src/images/projects/antscape.jpg
+coverAlt: AntScape
 description: |
   Videojuego platformer en 2.5D desarrollado en Unreal Engine 5.2
 tags:

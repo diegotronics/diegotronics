@@ -1,8 +1,8 @@
 ---
 title: La consistencia es la clave
 publishDate: 2019-10-02 00:00:00
-img: /assets/posts/consistency/consistency-is-key.jpg
-img_alt: La consistencia es la clave
+cover: /src/images/posts/consistency/consistency-is-key.jpg
+coverAlt: La consistencia es la clave
 description: |
   Descubriendo el poder de ser consistentes
 tags:

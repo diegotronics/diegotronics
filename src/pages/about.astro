@@ -1,17 +1,20 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
-
 import Hero from '../components/Hero.astro';
+
+// Import images
+import AboutImage from '../images/about/aboutme.jpg';
 ---
 
 <BaseLayout title="Sobre Mí | Diegotronics" description="Acerca de Diegotronics">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero title="Sobre Mí">
-				<img
+				<Image
 					width="1553"
 					height="873"
-					src="/assets/aboutme.jpg"
+					src={AboutImage}
 					alt="Diegotronics en el Pico Bolívar de Mérida, Venezuela"
 				/>
 			</Hero>
