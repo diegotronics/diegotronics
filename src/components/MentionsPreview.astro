@@ -1,17 +1,18 @@
 ---
 import { Image } from 'astro:assets';
 import Grid from '../components/Grid.astro';
+import { Image } from 'astro:assets';
+import MediumImage from '../images/mentions/medium-top-writer.jpg';
 ---
 <Grid variant="small">
-	<a class="mention-card" href="/assets/medium-top-writer.jpg">
-		<Image
-			alt="Top Writer en Medium"
-			loading="lazy"
-			decoding="async"
-			width="620"
-			src="/assets/medium-top-writer.jpg"
-		/>
-	</a>
+	<Image
+		class="mention-card"
+		alt="Top Writer en Medium"
+		loading="lazy"
+		decoding="async"
+		width="620"
+		src={MediumImage}
+	/>
 </Grid>
 
 <style>
